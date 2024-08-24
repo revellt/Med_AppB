@@ -3,6 +3,7 @@ import './App.css';
 import { Component } from 'InstantConsultation';
 import Component from 'BookingConsultation';
 import Component from 'App.js';
+import Component from 'ReviewForm';
 
 function App() {
   return (

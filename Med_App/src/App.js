@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Component } from 'InstantConsultation';
 import Component from 'BookingConsultation';
+import Component from 'App.js';
 
 function App() {
   return (
@@ -28,6 +29,15 @@ function App() {
     <div className="App">
         {/* Set up BrowserRouter for routing */}
         <BrowserRouter>
+        <Notification>
+              <Routes>
+                <Route path="/login" element={<Login />}/>
+                <Route path="/signup" element={<SignUp />}/>
+                <Route path="/instant-consultation" element={<InstantConsultation />} />
+                 <Route path="<component_route>" element={<component_name/>}/> //Replace the component_route with the component path and component_name with the component name as imported in the App.js file. 
+                />
+              </Routes>
+          </Notification>
           {/* Display the Navbar component */}
           <Navbar/>
 

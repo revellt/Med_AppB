@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Component } from 'InstantConsultation';
+import Component from 'BookingConsultation';
 
 function App() {
   return (

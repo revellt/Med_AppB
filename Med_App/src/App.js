@@ -34,6 +34,8 @@ function App() {
           <Routes>
             {/* Define individual Route components for different pages */}
           </Routes>
+          {/* Integrate existing component */}
+          <Route path="/instant-consultation" element={<InstantConsultation />} />
         </BrowserRouter>
     </div>
   );
